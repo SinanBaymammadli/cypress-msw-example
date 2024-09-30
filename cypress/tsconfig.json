@@ -1,4 +1,6 @@
 {
 	"extends": "@total-typescript/tsconfig/bundler/no-dom/app",
-	"include": ["vite.config.ts"]
+	"compilerOptions": {
+		"types": ["cypress", "node"]
+	}
 }
